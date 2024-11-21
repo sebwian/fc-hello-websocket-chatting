@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: fc-hello-websocket-chatting
+  profiles:
+    active: local
+    group:
+      local: console-logging, low-level-logging
+      dev: file-logging, high-level-logging
