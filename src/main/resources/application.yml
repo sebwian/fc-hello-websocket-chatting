@@ -6,3 +6,8 @@ spring:
     group:
       local: console-logging, low-level-logging
       dev: file-logging, high-level-logging
+
+server:
+  servlet:
+    encoding:
+      force-response: true
